@@ -1,0 +1,43 @@
+	<div class="header-top hidden-compact">
+		<div class="container">
+			<div class="row">
+				<div class="header-top-left col-lg-7 col-md-8 col-sm-6 col-xs-4">							 
+						</div>
+										<ul class="top-link list-inline hidden-lg hidden-md">
+						<li class="account" id="my_account"><a href="http://opencart.opencartworks.com/themes/so_emarket/index.php?route=account/account" title="My Account " class="btn-xs dropdown-toggle" data-toggle="dropdown"> <span class="hidden-xs">My Account </span> <span class="fa fa-caret-down"></span></a>
+							<ul class="dropdown-menu ">
+									<li><a href="http://opencart.opencartworks.com/themes/so_emarket/index.php?route=account/wishlist"  title="Wish List (0)">Wish List (0)</a></li>
+									<li><a href="http://opencart.opencartworks.com/themes/so_emarket/index.php?route=product/compare" title="Compare">Compare</a></li>
+								
+						            <li><a href="http://opencart.opencartworks.com/themes/so_emarket/index.php?route=account/register">Register</a></li>
+						            <li><a href="http://opencart.opencartworks.com/themes/so_emarket/index.php?route=account/login">Login</a></li>
+					            															
+							</ul>
+						</li>	
+						
+						 
+					</ul>
+							
+				</div>
+				<div class="header-top-right collapsed-block col-lg-5 col-md-4 col-sm-6 col-xs-8">	
+										<ul class="top-link list-inline lang-curr">
+						<li class="currency"> <div class="pull-left">
+  <form action="http://opencart.opencartworks.com/themes/so_emarket/index.php?route=common/currency/currency" method="post" enctype="multipart/form-data" id="form-currency">
+    <div class="btn-group">
+      <button class="btn-link dropdown-toggle" data-toggle="dropdown">
+	  			  
+      			  
+      			 
+				$ US Dollar 
+			  
+      		&nbsp;<i class="fa fa-caret-down"></i>	  
+	</button>
+   					 <li class="language"><div class="pull-left">
+  <form action="http://opencart.opencartworks.com/themes/so_emarket/index.php?route=common/language/language" method="post" enctype="multipart/form-data" id="form-language">
+    <div class="btn-group">
+      <button class="btn-link dropdown-toggle" data-toggle="dropdown">
+                         
+      <img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="catalog/language/en-gb/en-gb.png" alt="English" title="English">
+      <span class="hidden-xs hidden-sm hidden-md">English</span>
+                  <i class="fa fa-caret-down"></i>
+    </button>

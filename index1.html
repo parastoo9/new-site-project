@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>مارکت لوازم خانگی </title>
+    <title>E market </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
@@ -17,9 +17,12 @@
     <link rel="stylesheet" href="static/bootstrap/css/bootstrap-rtl.csss">
     <link rel="stylesheet" href="static/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/slick/slick.css">
+    <link rel="stylesheet" href="static/slick/slick-theme.css">
 
     <script src="static/jquery/jquery-1.9.0.min.js"></script>
     <script src="static/slider/jquery.nivo.slider.js"></script>
+    <script src="static/slick/slick.js"></script>
 
 </head>
 
@@ -31,42 +34,119 @@
 
         <header id="header" class=" variant-typeheader-1">
 
-            <div class="header-middle ">
+            <div class="header-middle">
                 <div class="container">
                     <!--befor-->
                     <div class="row">
                         <!-- befor-->
-                        <div class="navbar-logo col-sm-3 col-xs-12">
-                        <div class="logo">
-                            <a href="">
-                                <img class="img-responsive" src="img/logo.png" />
-                            </a>
+                        <div class="navbar-logo col-sm-2 col-xs-12">
+                            <div class="logo">
+                                <a href="">
+                                    <img class="img-responsive" src="img/logo.png" />
+                                </a>
 
+                            </div>
                         </div>
-                    </div>
 
 
-                        <div class="main-menu col-lg-6 col-md-7 col-sm-12 col-xs-12">
+                        <div class="main-menu col-sm-7 col-xs-12">
                             <div class="responsive megamenu-style-dev">
-                                <div class=" container-megamenu horizontal ">
+                                <div class=" container">
+                                    <ul class="megamenu">
 
-                                    <ul>
-                                        <h4>
-                                            <li><a href="">صفحه اصلی</a></li>
-                                            <li><a href="">کلکسیون</a></li>
-                                            <li><a href="">فروشگاه ها</a></li>
-                                            <li><a href="">وبلاگ</a></li>
-                                            <li><a href="">صفحات</a></li>
-                                            <li><a href="">مارکت</a></li>
+                                        <li><a href="">صفحه اصلی</a></li>
+                                        <li><a href="">کلکسیون</a></li>
+                                        <li><a href="">فروشگاه</a></li>
+                                        <li><a href="">وبلاگ</a></li>
+                                        <li><a href="">صفحات</a></li>
+                                        <li><a href="">مارکت</a></li>
 
-                                        </h4>
+
                                     </ul>
                                 </div>
                             </div>
                         </div>
+                        <div class="middle-left col-sm-3 col-xs-12">
+                            <div class="signin-w font-title hidden-sm hidden-xs">
+                                <ul class="signin-link">
+                                    <li class="log login">
+                                        <i class="fa fa-lock"></i>
+                                        <a href="/login">ورود</a>
+                                        /
+                                        <a href="/register">ثبت نام</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="telephone hidden-xs hidden-sm hidden-md">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-phone-square"></i>
+                                            تلفن: 087-34225100
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header-bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="all-category col-sm-2 col-xs-12">
+                                        <a href="#"><strong>دسته بندی کالا</strong></a>
+                                    </div>
+                                </div>
+                                <div class="buttom2 col-sm-7 col-xs-12">
+                                    <div class="icon-search hidden-lg hidden-md hidden-sm"> <i
+                                            class="fa fa-search fa-2x"></i>
+                                        <div id="sosearchpro" class="sosearchpro-wrapper so-search">
+                                            <form method="GET" action="index-php">
+                                                <div id="search0" class="search input-group form-group">
+                                                    <div
+                                                        class="select_category filter_type  icon-select hidden-sm hidden-xs">
+                                                        <input class="autosearch-input form-control" type="text"
+                                                            value="" size="50" autocomplete="off" placeholder="Search"
+                                                            name="search">
+                                                        <span class="input-group-btn">
+                                                            <button type="submit"
+                                                                class="button-search btn btn-default btn-lg"
+                                                                name="submit_search">
+                                                                <i class="fa fa-search"></i>
+                                                            </button>
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </header>
 
 
 

@@ -44,7 +44,7 @@ h6 {
 
 .variant-typeheader-1{
     background-color: #232f3e;
-    min-height: 200px; important: !;
+    min-height: 200px !important;
     display: block;
     background-size: cover;
 }
@@ -83,6 +83,13 @@ h6 {
 .main-menu li a:hover{
     color: red;
 }
+.megamenu >ul> li .mega-menu-container{
+    position: relative;
+}
+
+.caret{
+    color: #fff;
+}
 .middle-left{
     margin-top: -50px;
     margin-left: 10px;
@@ -113,10 +120,28 @@ a:hover, a:focus {
     font-size: 16px;
     font-weight: 600;
     float: right;
+    padding-top: 5px;
     margin-top: 20px;
     margin-right: 30px;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
+    position: relative;
+}
+.all-category::before{
+    content: "\f0c9";
+    font-family: fontawesome;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: #fff;
+}
+.all-category::after{
+    content: "\f107";
+    font-family: fontawesome;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    color: #fff;
 }
 .buttom2{
     min-height: 45px;

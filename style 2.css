@@ -199,3 +199,20 @@ ul.megamenu li{
     top: 100%;
     overflow: auto;
 }
+
+.sidebar-menu{
+    text-align: justify;
+    float: right;
+    overflow: initial;
+
+}
+.sidebar-menu> li{
+    display: block;
+    margin-bottom: 7px;
+}
+.sidebar-menu> li >a{
+    padding: 5px;
+    padding-right: 15px;
+    color: green;
+    display:block;
+}

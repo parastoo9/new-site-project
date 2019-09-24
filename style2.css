@@ -191,9 +191,10 @@ a:hover, a:focus {
     font-size: 16px;
     font-weight: 600;
     float: right;
+    width: 248px;
     padding: 5px;
     margin-top: 20px;
-    margin-right: 30px;
+    margin-right: 32px;
     border-radius: 5px 5px 0px 0px;
     position: relative;
 }
@@ -258,18 +259,83 @@ a:hover, a:focus {
 
 .sidebar-menu{
     text-align: justify;
+    direction: rtl;
     float: right;
     overflow: initial;
-
+    background-color: #fff;
+    width: 248px;
+    margin-right: 32px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: inline-block;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 .sidebar-menu> li{
-    display: block;
-    margin-bottom: 7px;
+    margin-bottom: 9px;
+    padding-bottom: 7px;
+    font-weight: 600;
 }
 .sidebar-menu> li >a{
-    padding: 5px;
+    padding: 8px;
     padding-right: 15px;
-    color: green;
-    display:block;
+    color: #444;
+    cursor: pointer;
 }
+.sidebar-menu> li >a:hover{
+    background-color: #fff;
+    color: #ff3c20; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    width: 100%;
+}
+.sidebar-menu .fa{
+    color: #444;
+}
+.sidebar-menu .fa:hover{
+    color: #ff3c20;
+}
+.nivoslider{
+    display: inline;
+    float: right;
+    position: relative;
+    left: 35%;
+    margin-right: 44%;
+    border-radius: 15px;
+    margin-top: 25px;
 
+}
+.nivoslider >div{
+    position:relative;
+    margin-right: 34%;
+
+}
+.nivoslider >div >img{
+    margin-right: 34%;
+
+}
+.banners{
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.banners >.b-img{
+    margin-bottom: 34px;
+    margin-left: 25px;
+}
+.items{
+    float: right;
+    margin-right: 10px;
+}
+.picture{
+    background:  #f1efef;
+    margin-bottom: 20px;
+    padding: 15px 15px 10px;
+    text-align: center;
+    min-height: 300px;
+    position: relative;
+    margin-top: 10px;
+}
+.side-pic{
+    width: 90px;
+    margin-right: 30px;
+}

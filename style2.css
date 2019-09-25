@@ -294,32 +294,20 @@ a:hover, a:focus {
 .sidebar-menu .fa:hover{
     color: #ff3c20;
 }
-.nivoslider{
-    display: inline;
-    float: right;
-    position: relative;
+#slider{
     left: 35%;
-    margin-right: 44%;
-    border-radius: 15px;
+    margin-right: 43%;
     margin-top: 25px;
-
+    width: 88%;
 }
-.nivoslider >div{
-    position:relative;
-    margin-right: 34%;
 
-}
-.nivoslider >div >img{
-    margin-right: 34%;
-
-}
 .banners{
     float: left;
     margin-left: 25px;
     margin-top: 25px;
 }
 .banners >.b-img{
-    margin-bottom: 34px;
+    margin-bottom: 29px;
     margin-left: 25px;
 }
 .items{
@@ -332,10 +320,106 @@ a:hover, a:focus {
     padding: 15px 15px 10px;
     text-align: center;
     min-height: 300px;
-    position: relative;
     margin-top: 10px;
 }
 .side-pic{
     width: 90px;
     margin-right: 30px;
+}
+.gift-banner{
+    margin-right: 63px;
+
+}
+.deals-layout1 {
+    position: relative;
+}
+.module h3 .modtitle {
+    border-bottom: 2px solid #666;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.module .modtitle{
+    border-bottom: 2pt solid #ccc;
+    padding-bottom: 40px;
+}
+.module h3 span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    float: right;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    background-color: #232f3e;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 11px 20px;
+    bottom: -2px;
+}
+
+.slick-append {
+    position: absolute;
+    left: 37px;
+    top: 5%;
+}
+.slick-append button {
+    display: inline-block;
+    border-radius: 3px;
+    transform: translateY(-5px);
+    color: #333;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 22px;
+    text-align: center;
+    float: right;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 99;
+    opacity: 1;
+}
+.label-product-sale {
+    text-align: center;
+    background-color: #ff3c20;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 20px;
+    text-transform: uppercase;
+    z-index: 9;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.grade-wrapper img {
+    max-width: 220px;
+    
+}
+.product-info .product-title{
+    padding-bottom: 20px;
+}
+.product-title a{
+    color: #333;
+    padding-bottom: 20px;
+}
+.product-price{
+    color: #ff3c20;
+}
+.add-to-cart .fa{
+    color: #ff3c20;
 }

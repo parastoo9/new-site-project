@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="static/slick/slick.css">
     <link rel="stylesheet" href="static/slick/slick-theme.css">
-    <link rel="stylesheet" href="static/slider/themes/default/default.css" type="text/css">
     <link rel="stylesheet" href="static/slider/nivo-slider.css">
+    <link rel="stylesheet" href="static/slider/themes/default/default.css" type="text/css">
+
 
     <script src="static/jquery/jquery-1.9.0.min.js"></script>
     <script src="static/slider/jquery.nivo.slider.js"></script>
@@ -28,7 +29,7 @@
 
     <script>
         $(window).load(function () {
-            $('#slider').nivoslider({ controlNav: false, controlNavThumbs: false });
+            $('#slider').nivoSlider({ controlNav: false, controlNavThumbs: false });
         });
     </script>
 </head>
@@ -457,12 +458,12 @@
                         <div class="banners">
                             <div class="b-img">
                                 <a href="#">
-                                    <img src="img/banner1.jpg" alt="" style="width: 250px; height: 148px;" />
+                                    <img src="img/banner1.jpg" alt="" style="width: 250px; height: 155px;" />
                                 </a>
                             </div>
                             <div class="b-img2">
                                 <a href="#">
-                                    <img src="img/banner2.jpg" alt="" style="width: 250px; height: 148px;" />
+                                    <img src="img/banner2.jpg" alt="" style="width: 250px; height: 155px;" />
                                 </a>
                             </div>
                         </div>
@@ -471,26 +472,28 @@
 
 
                 <div class="col-sm-9 col-xs-12 banner">
-                    <div class="slider-wrapper theme-default">
+                    <div class="slider-wrapper  hidden-xs theme-default">
                         <div class="ribbon"></div>
-                        <div id="slider" class="nivoslider">
-                            <a href="#" style="display: block;">
+                        <div id="slider" class="nivoSlider">
+                            <a href="#">
                                 <img src="img/slider-1-950x450.jpg" alt="" style="width: 700px; visibility: visible;" />
                             </a>
-                            <a href="#" style="display: none;"><img src="img/slider-2-950x450.jpg" alt=""
-                                    style="width: 700px;" />
+                            <a href="#"><img src="img/slider-2-950x450.jpg" alt="" style="width: 700px;" />
                             </a>
-                            <a href="#" style="display: none;"><img src="img/slider-3-950x450.jpg" alt=""
-                                    style="width: 700px; " />
+                            <a href="#"><img src="img/slider-3-950x450.jpg" alt="" style="width: 700px; " />
                             </a>
                         </div>
+                        <div class="nivo-controlNav">
+                            <a class="nivo-control" rel="0">1</a>
+                            <a class="nivo-control active" rel="1">2</a>
+                            <a class="nivo-control" rel="2">3</a></div>
+                        <div class="gift-banner">
+                            <a href="#"><img src="img/banner3.jpg" alt="image" style="height: 48px;width: 988px;"></a>
+                        </div>
                     </div>
-
                 </div>
-
-
-
             </div>
+
             <div class="col-sm-2 col-xs-12">
                 <div class="sidebar">
                     <ul class="sidebar-menu">
@@ -519,12 +522,18 @@
                             <i class="fa fa-institution"></i>
                             <a href="#">اتاق پذیرایی</a></li>
                         <li class="item-vertical">
+                            <i class="fa fa-bed"></i>
+                            <a href="#">اتاق خواب</a></li>
+                        <li class="item-vertical">
+                            <i class="fa fa-video-camera"></i>
+                            <a href="#"> لوازم الکترونیکی بهینه </a></li>
+                        <li class="item-vertical">
                             <i class="fa fa-bath"></i>
                             <a href="#">وسایل حمام</a>
                             <b class="fa fa-angle-left"></b>
                         <li class="item-vertical">
                             <i class="fa fa-bullseye"></i>
-                            <a href="#">چراغ </a></li>
+                            <a href="#">لوستر </a></li>
                         <li class="item-vertical">
                             <i class="fa fa-tint"></i>
                             <a href="#">متالوژی </a></li>
@@ -533,12 +542,115 @@
                             <a href="#">صنعتی </a></li>
                     </ul>
                 </div>
+                <div class="side-pic">
+                    <img alt="image" src="img/banner4.jpg" /></div>
+            </div>
+            <div class="col-sm-9  col-xs-12  pull-left" style="margin-left: 25px;">
+                <div class="module so-deals-rtl deals-layout1">
+                    <h3 class="modtitle">
+                        <span>تخفیفات روزانه </span>
+                    </h3>
+                    <span class="slick-append">
+                        <button class="btn-next-sugested" style="margin-left:5px;" type="button">
+                            <i class="fa fa-caret-right" style="color:#ccc;"></i>
+                        </button>
+                        <button class="btn-prev-sugested" type="button">
+                            <i class="fa fa-caret-left" style="color:#ccc;"></i>
+                        </button>
+                    </span>
+                    <div class="modcontent">
+                        <div class="item-product slick-wrapper-sugested">
+                            <div class="col-sm-3 col-xs-12" style="width: 100%;display:inline-block;">
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="grade-wrapper">
+                                            <span class="label-product label-product-sale">
+                                                10%-</span>
+                                            <img alt="image" src="img/2-320x320.jpg" sizes="220px" />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-12" style="display:inline-block;">
+                                <div class="product-info">
+                                    <div class="product-title">
+                                        <a href="#">
+                                            <strong>اولانکو یوتکولپا</strong>
+                                        </a>
+                                        <div class="product-price">
+                                            <strong> 2،000،000 تومان</strong>
+
+                                        </div>
+                                        <a href="#" class="add-to-cart" data-id="133" style="color:#ff3c20;">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            اضافه به سبد خرید</a>
+                                    </div>
+                                    <div class="row">
+                                        <p class="col-xs-6 a1" style="padding-top:20px;">موجودی: <b>97</b> </p>
+                                        <p class="col-xs-6 a2" style="padding-top:20px;">فروش: <b>33</b> </p>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-sm-3 col-xs-12"  style="width: 100%;display:inline-block;">
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="grade-wrapper">
+                                            <span class="label-product label-product-sale">
+                                                22%-</span>
+                                            <img alt="image" src="img/7-320x320.jpg" sizes="224px">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                                <div class="col-sm-3 col-xs-12">
+                                    <div class="product-info">
+                                        <div class="product-title">
+                                            <a href="#">
+                                                زانسیتا بریسو
+                                            </a>
+                                        </div>
+
+                                        <div class="product-price">
+
+                                            <strong>3،000،000 تومان </strong>
+
+                                        </div>
+                                        <a href="#" class="add-to-cart" data-id="133" style="color:#ff3c20;"> <i
+                                                class="fa fa-shopping-basket"></i>
+                                            اضافه به سبد خرید</a>
+                                    </div>
+                                    <div class="row">
+
+                                        <p class="col-xs-6 a1" style="padding-top:20px;">موجودی: <b>55</b> </p>
+                                        <p class="col-xs-6 a2" style="padding-top:20px;">فروش: <b>2</b> </p>
+                                    </div>
+                                </div>
+                                <div class="clear" style="height: 45px"></div>
+                                <div class=" col-sm-12 col-xs-12 pull-left ">
+                                    <div class="banners banners6">
+                                        <div class="banner">
+                                            <a href="#"><img src="img/banner7.jpg " alt="image"></a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>-->
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2  col-xs-12  pull-right">
+
             </div>
         </div>
-    </div>
 
 
-    <div id="content">
+        <!--<div id="content">
         <div class="so-page-builder">
             <div class="container-page-builder">
                 <div class="row">
@@ -632,7 +744,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 </body>
 

@@ -32,19 +32,19 @@
             $('#slider').nivoSlider({ controlNav: false, controlNavThumbs: true });
         });
     </script>
-        <script>
+    <script>
 
-                $(document).ready(function () {
-                    $('.item-product').slick({
-                        infinite: true,
-                        slidesToShow: 4,
-                        slidesToScroll: 4,
-                        prevArrow: ".btn-prev-sugested",
-                        nextArrow: ".btn-next-sugested",
-                        rtl: true
-                    });
-                });
-            </script>        
+        $(document).ready(function () {
+            $('.item-product').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                prevArrow: ".btn-prev-sugested",
+                nextArrow: ".btn-next-sugested",
+                rtl: true
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -408,15 +408,17 @@
                             </div>
                             <div class="bottom2 col-sm-7 col-xs-12">
                                 <div class="search-header-w">
-                                    <div class="icon-search hidden-lg hidden-md hidden-sm"><i class="fa fa-search"></i></div>
-        
+                                    <div class="icon-search hidden-lg hidden-md hidden-sm"><i class="fa fa-search"></i>
+                                    </div>
+
                                     <div id="sosearchpro" class="sosearchpro-wrapper so-search ">
-        
-        
+
+
                                         <form method="GET" action="index.php">
                                             <div id="search0" class="search input-group form-group">
-        
-                                                <div class="select_category filter_type  icon-select hidden-sm hidden-xs">
+
+                                                <div
+                                                    class="select_category filter_type  icon-select hidden-sm hidden-xs">
                                                     <select class="no-border chosen-select" name="category_id">
                                                         <option value="0">دسته بندی کالاها </option>
                                                         <option value="24 ">لوازم تزئینی </option>
@@ -444,46 +446,46 @@
                                                         <option value="59">اپل </option>
                                                     </select>
                                                 </div>
-        
-                                                <input class="autosearch-input form-control" type="text" value="" size="50"
-                                                    autocomplete="off" placeholder="Search" name="search">
+
+                                                <input class="autosearch-input form-control" type="text" value=""
+                                                    size="50" autocomplete="off" placeholder="Search" name="search">
                                                 <span class="input-group-btn">
                                                     <button type="submit" class="button-search btn btn-default btn-lg"
                                                         name="submit_search"><i class="fa fa-search"></i> </button>
                                                 </span>
                                             </div>
-        
-        
+
+
                                             <input type="hidden" name="route" value="product/search" />
                                         </form>
                                     </div>
-        
+
                                 </div>
                             </div>
                         </div>
-                                    </div>
-                            <div class="buttom3 col-sm-3 col-xs-12">
-                                <div class="shopcart">
-                                    <span class="icon-c">
-                                        <i class="fa fa-shopping-bag"></i>
-                                    </span>
-                                </div>
-                                <div class="shopcart">
-                                    <span class="icon-c">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                </div>
-                                <div class="shopcart">
-                                    <span class="icon-c">
-                                        <i class="fa fa-refresh"></i>
-                                    </span>
-                                </div>
-                            </div>
-
+                    </div>
+                    <div class="buttom3 col-sm-3 col-xs-12">
+                        <div class="shopcart">
+                            <span class="icon-c">
+                                <i class="fa fa-shopping-bag"></i>
+                            </span>
+                        </div>
+                        <div class="shopcart">
+                            <span class="icon-c">
+                                <i class="fa fa-heart"></i>
+                            </span>
+                        </div>
+                        <div class="shopcart">
+                            <span class="icon-c">
+                                <i class="fa fa-refresh"></i>
+                            </span>
                         </div>
                     </div>
 
                 </div>
+            </div>
+
+    </div>
     </header>
     <div class="col-sm-3 col-xs-12 pull-right">
         <div class="sidebar">
@@ -531,164 +533,185 @@
                 <li class="item-vertical">
                     <i class="fa fa-industry"></i>
                     <a href="#">صنعتی </a></li>
+                <li class="item-vertical">
+                    <div class="plus-square">
+                        <a class="clearfix" href="/university-lectures">
+                            <strong style="color: #ff3c20;"><i class="fa fa-plus-square"
+                                    style="color: #ff3c20;"></i>دسته بندي بيشتر</strong>
+                        </a>
+                    </div>
+                </li>
             </ul>
         </div>
-        <div class="side-pic">
-            <img alt="image" src="img/banner4.jpg" /></div>
+        <a href="#">
+                <img class="banner4" src="img/banner4.jpg">
+        </a>
     </div>
-            <div class="col-sm-9 col-xs-12">
-                <div class="col-sm-3 col-xs-12">
-                    <div class="row">
-                        <div class="banners">
-                            <div class="b-img">
-                                <a href="#">
-                                    <img src="img/banner1.jpg" alt="" style="width: 260px; height: 155px;" />
-                                </a>
-                            </div>
-                            <div class="b-img2">
-                                <a href="#">
-                                    <img src="img/banner2.jpg" alt="" style="width: 260px; height: 155px;" />
-                                </a>
-                            </div>
-                        </div>
+    <div class="col-sm-9 col-xs-12">
+        <div class="col-sm-3 col-xs-12">
+            <div class="row">
+                <div class="banners">
+                    <div class="b-img">
+                        <a href="#">
+                            <img src="img/banner1.jpg" alt="" style="width: 260px; height: 155px;" />
+                        </a>
                     </div>
-                </div>
-
-
-                <div class="col-sm-9 col-xs-12 banner">
-                    <div class="slider-wrapper  hidden-xs theme-default">
-                        <div class="ribbon"></div>
-                        <div id="slider" class="nivoSlider">
-                            <a href="#">
-                                <img src="img/slider-1-950x450.jpg" alt="" style="width: 750px; visibility: visible;" />
-                            </a>
-                            <a href="#"><img src="img/slider-2-950x450.jpg" alt="" style="width: 750px;" />
-                            </a>
-                            <a href="#"><img src="img/slider-3-950x450.jpg" alt="" style="width: 750px; " />
-                            </a>
-                        </div>
-                        <div class="nivo-controlNav">
-                            <a class="nivo-control" rel="0">1</a>
-                            <a class="nivo-control active" rel="1">2</a>
-                            <a class="nivo-control" rel="2">3</a></div>
-                        <div class="gift-banner">
-                            <a href="#"><img src="img/banner3.jpg" alt="image" style="height: 48px;width: 988px;"></a>
-                        </div>
+                    <div class="b-img2">
+                        <a href="#">
+                            <img src="img/banner2.jpg" alt="" style="width: 260px; height: 155px;" />
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="col-sm-9 col-xs-12 banner">
+            <div class="slider-wrapper  hidden-xs theme-default">
+                <div class="ribbon"></div>
+                <div id="slider" class="nivoSlider">
+                    <a href="#">
+                        <img src="img/slider-1-950x450.jpg" alt="" style="width: 750px; visibility: visible;" />
+                    </a>
+                    <a href="#"><img src="img/slider-2-950x450.jpg" alt="" style="width: 750px;" />
+                    </a>
+                    <a href="#"><img src="img/slider-3-950x450.jpg" alt="" style="width: 750px; " />
+                    </a>
+                </div>
+                <div class="nivo-controlNav">
+                    <a class="nivo-control" rel="0">1</a>
+                    <a class="nivo-control active" rel="1">2</a>
+                    <a class="nivo-control" rel="2">3</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-9  col-xs-12  pull-left">
+            <div class="banners banners3">
+                <div class="banner">
+                    <div class="clear" style="height: 20px"></div>
 
-            <div class="clear" style="height: 35px"></div>
-            <div class="module so-deals-rtl deals-layout1" style="margin-left: 30px;">
+                    <a href="#"><img src="img/banner3.jpg" alt="image" style="height: 48px;width: 988px;"></a>
+                </div>
+            </div>
+    <div class="clear" style="height: 20px "></div>
+    <div class="module so-deals-rtl deals-layout1" style="margin-left: 30px;">
 
-                <h3 class="modtitle"><span>معاملات روزانه</span></h3>
-                <span class="slick-append">
-                    <button class="btn-next-sugested" style="margin-left:5px;display: inline-block;" type="button">
-                        <i class="fa fa-angle-right" style="color:#ccc;"></i>
-                    </button>
-                    <button class="btn-prev-sugested" style="margin-left:5px;display: inline-block;" type="button">
-                        <i class="fa fa-angle-left" style="color:#ccc;"></i>
-                    </button>
-                </span>
-                <div class="item-product slick-wrapper-sugested">
-                    <div class="col-sm-3 col-xs-12">
-                        <div class="product">
-                            <a href="#">
-                                <div class="grade-wrapper">
-                                    <span class="label-product label-product-sale">
-                                        10%-</span>
-                                    <img alt="image" src="img/img1.jpg" sizes="224px" />
-
-                                </div>
-                            </a>
-
+        <h3 class="modtitle"><span>معاملات روزانه</span></h3>
+        <span class="slick-append">
+            <button class="btn-next-sugested" style="margin-left:5px;display: inline-block;" type="button">
+                <i class="fa fa-caret-right" style="color:#ccc;"></i>
+            </button>
+            <button class="btn-prev-sugested" style="margin-left:5px;display: inline-block;" type="button">
+                <i class="fa fa-caret-left" style="color:#ccc;"></i>
+            </button>
+        </span>
+        <div class="item-product slick-wrapper-sugested">
+            <div class="col-sm-3 col-xs-12">
+                <div class="product">
+                    <a href="#">
+                        <div class="grade-wrapper">
+                            <span class="label-product label-product-sale">
+                                10%-</span>
+                            <img alt="image" src="img/img1.jpg" sizes="224px" />
                         </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-12">
+                <div class="product-info">
+                    <div class="product-title">
+                        <a href="#">
+                            اولانکو یوتکولپا
+                        </a>
                     </div>
 
-                    <div class="col-sm-3 col-xs-12">
-                        <div class="product-info">
-                            <div class="product-title">
-                                <a href="#">
-                                    اولانکو یوتکولپا
-                                </a>
-                            </div>
+                    <div class="product-price">
 
-                            <div class="product-price">
+                        <strong> 600.000 تومان</strong>
+                        </br>
+                        <del>700.000</del>
 
-                                <strong> 600.000 تومان</strong>
-                                </br>
-                                <del>700.000</del>
-
-                            </div>
-
-                            <a href="#" class="add-to-cart" data-id="133" style="color:#ff3c20;"> <i
-                                    class="fa fa-shopping-basket"></i>
-                                اضافه به سبد خرید</a>
-
-                        </div>
-                        <div class="row">
-
-                            <p class="col-xs-6 a1" style="padding-top:20px;">موجودی: <b>97</b> </p>
-                            <p class="col-xs-6 a2" style="padding-top:20px;">فروش: <b>33</b> </p>
-                        </div>
                     </div>
 
-                    <div class="col-sm-3 col-xs-12">
-                            <div class="product">
+                    <a href="#" class="add-to-cart" data-id="133" style="color:#ff3c20;"> <i
+                            class="fa fa-shopping-basket"></i>
+                        اضافه به سبد خرید</a>
 
-                                <a href="#">
-                                    <div class="grade-wrapper">
-                                        <span class="label-product label-product-sale">
-                                            22%-</span>
-                                        <img alt="image" src="img/img2.jpg" sizes="224px" />
+                </div>
+                <div class="row">
 
-                                    </div>
-                                </a>
-                            </div>
+                    <p class="col-xs-6 a1" style="padding-top:20px;">موجودی: <b>97</b> </p>
+                    <p class="col-xs-6 a2" style="padding-top:20px;">فروش: <b>33</b> </p>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-12">
+                <div class="product">
+
+                    <a href="#">
+                        <div class="grade-wrapper">
+                            <span class="label-product label-product-sale">
+                                22%-</span>
+                            <img alt="image" src="img/img2.jpg" sizes="224px" />
+
                         </div>
+                    </a>
+                </div>
+            </div>
 
-                        <div class="col-sm-3 col-xs-12">
-                            <div class="product-info">
-                                <div class="product-title">
-                                    <a href="#">
-                                        زانسیتا بریسو
-                                    </a>
-                                </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="product-info">
+                    <div class="product-title">
+                        <a href="#">
+                            زانسیتا بریسو
+                        </a>
+                    </div>
 
-                                <div class="product-price">
+                    <div class="product-price">
 
-                                    <strong>850.000 تومان </strong>
-                                    </br>
-                                    <del>900.000</del>
+                        <strong>850.000 تومان </strong>
+                        </br>
+                        <del>900.000</del>
 
 
-                                </div>
-                                <a href="#" class="add-to-cart" data-id="133" style="color:#ff3c20;"> <i
-                                        class="fa fa-shopping-basket"></i>
-                                    اضافه به سبد خرید</a>
-                            </div>
-                            <div class="row">
+                    </div>
+                    <a href="#" class="add-to-cart" data-id="133" style="color:#ff3c20;"> <i
+                            class="fa fa-shopping-basket"></i>
+                        اضافه به سبد خرید</a>
+                </div>
+                <div class="row">
 
-                                <p class="col-xs-6 a1" style="padding-top:20px;">موجودی: <b>55</b> </p>
-                                <p class="col-xs-6 a2" style="padding-top:20px;">فروش: <b>2</b> </p>
-                            </div>
+                    <p class="col-xs-6 a1" style="padding-top:20px;">موجودی: <b>55</b> </p>
+                    <p class="col-xs-6 a2" style="padding-top:20px;">فروش: <b>2</b> </p>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-12">
+                <div class="product">
+                    <a href="#">
+                        <div class="grade-wrapper">
+                            <span class="label-product label-product-sale">
+                                8%-</span>
+                            <img alt="image" src="img/img3.jpg" sizes="224px" />
+
                         </div>
+                    </a>
 
-                        <div class="col-sm-3 col-xs-12">
-                            <div class="product">
-                                <a href="#">
-                                    <div class="grade-wrapper">
-                                        <span class="label-product label-product-sale">
-                                            8%-</span>
-                                        <img alt="image" src="img/img3.jpg" sizes="224px" />
+                </div>
+            </div>
 
-                                    </div>
-                                </a>
 
-                            </div>
-                        </div>
 
-                      <!-- <div class="col-sm-3 col-xs-12">
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="col-sm-3 col-xs-12">
                             <div class="product-info">
                                 <div class="product-title">
                                     <a href="#">
@@ -1261,5 +1284,3 @@
 
                     </div>
                 </div>-->
-
-

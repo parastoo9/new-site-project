@@ -393,6 +393,9 @@ cursor: pointer;
 opacity: 1;
 z-index: 99;
 }
+.slick-append button:hover {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+}
 .slick-list {
     position: relative;
     display: inline-block;
@@ -433,8 +436,7 @@ z-index: 99;
     width: 976px;
     min-height: 120px;
     display: inline;
-    margin-top: 20px;
-    margin-left:20px;
+    margin-left:-20px;
 }
 h4.modtitle{
 font-size: 16px;
@@ -566,7 +568,99 @@ padding:12px 0;
 }
   
 
+.item-new-product .product{
+    text-align: center;
+    background-color: #f8f8f8;
+    min-height: 270px;
+}
+.item-new-product2 .product{
+    text-align: center;
+    background-color: #f8f8f8;
+    min-height: 270px;
+}
+.item-new-product .product .product-title a:hover{
+    color: #ff3c20 !important;
+}
+.item-new-product2 .product .product-title a:hover{
+    color: #ff3c20 !important;
+}
+.item-new-product .product-price,.item-new-product2 .product-price{
+    font-size: 13px;
+    color: #ff3c20;
+}
+.item-new-product span.fa-stack,.item-new-product2 span.fa-stack{
+    margin-bottom: 30px;
+}
 
+.menu-link{
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+}
+.menu-link .middle-menu li{
+    float: right;
+    width: auto;
+    margin-right: 12px;
+
+}
+.menu-link .middle-menu li a{
+    display: block;
+    padding: 5px;
+    color:#666;
+}
+.menu-link .middle-menu li a:hover{
+    color: #ff3c20;
+}
+/*.module h3.modtitle {
+    border-bottom: 2px solid #eee;
+    display: inline-block;
+    width: 102%;
+    float: left;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    }*/
+
+.module .item-new-product .col-sm-2 {
+    width: 20%;
+}   
+.product-price del {
+    color: #999;
+}
+    
+#content .container {
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.banners8 .b1,.banners8 .b2{
+    text-align: center;
+    background-color: #f8f8f8;
+    min-height: 210px;
+}
+
+.banners8 .b1 .product-price,.banners8 .b2 .product-price{
+    color: #ff3c20;
+}
+
+
+
+.item-product3 .product-info{
+    text-align: justify;
+    background-color: #f8f8f8;
+    min-height: 130px;
+}
+.item-new-product3{
+    background-color: #f8f8f8;
+
+}
+.item-product3 .product-title a{
+    font-size: 15px;
+}
 
 
 

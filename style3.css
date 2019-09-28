@@ -297,6 +297,7 @@ select{
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
     width: 100%;
 }
+
 .sidebar-menu .fa{
     color: #444;
 }
@@ -433,8 +434,8 @@ z-index: 99;
       
 }
 .banner7 img{
-    width: 976px;
-    min-height: 120px;
+    width: 960px;
+    min-height: 110px;
     display: inline;
     margin-left:-20px;
 }
@@ -566,8 +567,17 @@ padding:12px 0;
     padding: 0;
     margin-bottom: 5px;
 }
-  
-
+/*
+.item-new-product2{
+    position: relative;
+}
+.module .item-new-product2 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}*/
 .item-new-product .product{
     text-align: center;
     background-color: #f8f8f8;
@@ -631,7 +641,9 @@ padding:12px 0;
 .product-price del {
     color: #999;
 }
-    
+.module .item-new-product2 .col-sm-2 {
+    width: 20%;
+} 
 #content .container {
     margin-right: 0px;
     margin-left: 40px;
@@ -640,19 +652,33 @@ padding:12px 0;
 .banners8 .b1,.banners8 .b2{
     text-align: center;
     background-color: #f8f8f8;
-    min-height: 210px;
+    min-height: 213px;
+    width: 128px;
+    height: 128px;
 }
 
 .banners8 .b1 .product-price,.banners8 .b2 .product-price{
     color: #ff3c20;
 }
-
+/*.banners8 .col-lg-6{
+    float: right;
+}*/
+.col-lg-4 {
+    width: 33.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    }
 
 
 .item-product3 .product-info{
-    text-align: justify;
     background-color: #f8f8f8;
     min-height: 130px;
+    min-width: 120px;
+    text-align: center;
+    float: right;
 }
 .item-new-product3{
     background-color: #f8f8f8;
@@ -662,30 +688,241 @@ padding:12px 0;
     font-size: 15px;
 }
 
+#content .so-groups-sticky.right {
+    left: 0;
+    left: auto;
+}
+#content .so-groups-sticky {
+    width: 40px;
+}
+#content .so-groups-sticky {
+    background-color: #ff3c20;
+}
+div.so-groups-sticky.right {
+    z-index: 650;
+}
+.so-groups-sticky.right {
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    background: #ff3c20;
+        background-color: #ff3c20;
+    width: 50px;
+}
+#so-groups > a {
+    position: relative;
+    height: 43px;
+}
+#so-groups > a {
+    float: left;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    padding: 10px;
+    height: 43px;
+    position: relative;
+}
+#content #so-groups > a span {
+    background-color: #ff3c20;
+}
+#so-groups > a span {
+    background-color: #ff3c20;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    left: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    top: 0;
+    transition: all 0.2s ease-in-out 0s;
+    visibility: hidden;
+    white-space: nowrap;
+    width: auto;
+}
+#so-groups i.fa {
+    text-align: center;
+    color: white;
+}
+#so-groups > a > i {
+    font-size: 20px;
+}
+#so-groups > a {
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+#so-groups > a {
+    position: relative;
+    height: 43px;
+}
+#content #so-groups > a span {
+    background-color: #ff3c20;
+}
+#so-groups > a:hover span {
+    opacity: 1;
+    transition: all 0.2s ease-in-out 0s;
+    visibility: visible;
+    width: auto;
+}
+#content #so-groups > a:hover {
+    background-color: #ec1e00;
+}
+#so-groups > a:hover {
+    background-color: #ec3a01;
+}
+#so-groups i.fa {
+    text-align: center;
+}
+#so-groups > a > i {
+    font-size: 20px;
+}
+
+.fa-shopping-cart::before {
+
+    content: "\f07a";
+
+}
+.fa-user::before {
+    content: "\f007";
+}
+.fa-align-justify::before {
+    content: "\f039";
+}
+.fa-search::before {
+    content: "\f002";
+}
+.fa-recent::before {
+    content: "\f06e";
+}
+
+#so-groups > a {
+    position: relative;
+    height: 43px;
+}
+#so-groups i.fa-recent {
+    background: url('../images/icon-recent.png') no-repeat;
+    width: 23px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 6px;
+
+}
+.fa-angle-double-up::before {
+    content: "\f102";
+}
+#so-groups .popup-hidden {
+    opacity: 0;
+    top: -100%;
+    bottom: 100%;
+}
+#so-groups .popup {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 1;
+    background: rgba(0,0,0,.6);
+}
+#so-groups .popup-screen {
+    display: table;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+#so-groups .popup-position {
+    padding: 40px;
+}
+#so-groups .popup-position {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
 
 
 
+.so-fb-message-style-default .so-fb-message-head:hover {
+    background-color: #3b5998;
+}
+.so-fb-message-style-default .so-fb-message-head {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+.so-fb-message-style-default .so-fb-message-head {
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #fff;
+    font-family: IRANSans, sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    height: 29px;
+    padding: 5px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.so-fb-message .online {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fb_reset {
+    background: none;
+    border: 0;
+    border-spacing: 0;
+    color: #000;
+    cursor: auto;
+    direction: ltr;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    visibility: visible;
+    white-space: normal;
+    word-spacing: normal;
+}
+.fb_reset > div {
+    overflow: hidden;
+}
+.so-fb-message.right-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 9999;
+}
 
 
 

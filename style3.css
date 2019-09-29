@@ -145,7 +145,18 @@ h6 {
 }
 .shopcart .icon-c .fa{
     color: #232f3e;
+    color: #fff;
 }
+.shopcart .icon-c .fa:hover{
+    color: #ff3c20;
+}
+.shopcart{
+    display: inline-block;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+
 
 
 
@@ -284,7 +295,10 @@ select{
     margin-bottom: 9px;
     padding-bottom: 7px;
     font-weight: 600;
+    position: relative;
+
 }
+
 .sidebar-menu> li >a{
     padding: 8px;
     padding-right: 15px;
@@ -294,8 +308,85 @@ select{
 .sidebar-menu> li >a:hover{
     background-color: #fff;
     color: #ff3c20; 
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    box-shadow: 0 0 28px rgba(0,0,0,0.15);
     width: 100%;
+    border-radius: 4px;
+}
+.sidebar-menu >li>ul{
+    display: none;
+    color: #444;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    right: 102%;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+}
+.sidebar-menu >li:hover >ul{
+    display: block;
+}
+
+
+
+.sidebar-menu >li>ul>li{
+    margin-bottom: 9px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    position: relative;
+}
+.sidebar-menu >li>ul>li>a{
+    color: #444;
+    padding-right: 20px;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+.sidebar-menu >li>ul>li>a:hover{
+    background-color: #fff;
+    color: #ff3c20; 
+    box-shadow: 0 0 28px rgba(0,0,0,0.15);
+    width: 100%;
+    border-radius: 4px;
+}
+.sidebar-menu >li>ul>li:hover >ul{
+    display: block;
+}
+
+
+
+
+.sidebar-menu> li>ul>li>ul>li{
+    margin-bottom: 9px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    position: relative;
+}
+
+.sidebar-menu >li>ul>li>ul{
+    display: none;
+    color: #444;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 99%;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+}
+.sidebar-menu >li>ul>li>ul>li>a{
+    color: #444;
+    padding-right: 20px;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+.sidebar-menu >li>ul>li>ul>li>a:hover{
+    background-color: #fff;
+    color: #ff3c20; 
+    box-shadow: 0 0 28px rgba(0,0,0,0.15);
+    width: 100%;
+    border-radius: 4px;
 }
 
 .sidebar-menu .fa{
@@ -634,7 +725,6 @@ padding:12px 0;
     font-weight: 700;
     text-transform: uppercase;
     }*/
-
 .module .item-new-product .col-sm-2 {
     width: 20%;
 }   
